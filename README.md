@@ -30,3 +30,17 @@ test_human.py: Manual control interface for environment debugging.
 
 🛠️ Tech StackLanguage: Python 3.11  
 AI Framework: PyTorchSimulation: Gymnasium, PygameData Science: NumPy, Matplotlib
+
+
+🚀 Getting Started  
+
+Clone the Repo:  
+git clone https://github.com/your-username/Drone-Path-Optimization-RL.git
+
+
+Install Dependencies:  
+pip install torch gymnasium pygame numpy matplotlib
+
+
+Run Training:  
+python train.py
