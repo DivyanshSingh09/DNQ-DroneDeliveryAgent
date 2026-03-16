@@ -12,6 +12,7 @@ Optimized Pathing: The agent learned to prioritize package collection and avoid 
 Figure 1: Training curve showing the transition from random exploration to reward-maximizing behavior.
 
 🤖 The AI Model
+
 The system utilizes a Deep Q-Network (DQN) architecture-
 Algorithm: DQN with Experience Replay and Target Network stabilization.
 Environment: Custom OpenAI Gymnasium grid-world (20x20).
@@ -19,6 +20,7 @@ State Space: 4D vector (Agent X-Y, Package 1 status, Package 2 status).
 Action Space: Discrete (Up, Down, Left, Right, Idle).
 
 📂 Project Structure
+
 env.py: Custom Gymnasium environment defining physics and reward logic.
 agent.py: DQN Agent architecture and Replay Buffer implementation.
 train.py: Main training loop with live visualization support.
