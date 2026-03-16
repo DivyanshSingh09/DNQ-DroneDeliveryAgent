@@ -7,6 +7,7 @@ The model was trained for 500 episodes, showing clear convergence.
 Success Rate: High stability achieved post-episode 200.
 Optimized Pathing: The agent learned to prioritize package collection and avoid a -500 reward penalty from obstacles.
 
+![Training Results](training_results.png)
 
 Figure 1: Training curve showing the transition from random exploration to reward-maximizing behavior.
 
