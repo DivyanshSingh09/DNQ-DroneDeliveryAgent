@@ -13,8 +13,8 @@ Figure 1: Training curve showing the transition from random exploration to rewar
 
 🤖 The AI Model
 
-The system utilizes a Deep Q-Network (DQN) architecture-
-Algorithm: DQN with Experience Replay and Target Network stabilization.
+The system utilizes a Deep Q-Network (DQN) architecture- \n
+Algorithm: DQN with Experience Replay and Target Network stabilization. \n
 Environment: Custom OpenAI Gymnasium grid-world (20x20).
 State Space: 4D vector (Agent X-Y, Package 1 status, Package 2 status).
 Action Space: Discrete (Up, Down, Left, Right, Idle).
